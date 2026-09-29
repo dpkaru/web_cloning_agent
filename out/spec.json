@@ -1,0 +1,171 @@
+{
+  "colors": {
+    "primary": "#171717",
+    "secondary": "#EAEAEA",
+    "background": "#FFFFFF",
+    "text": "#171717",
+    "accent": "#6032E4"
+  },
+  "fonts": {
+    "heading": "GeistSans, \"GeistSans Fallback\"",
+    "body": "GeistSans, \"GeistSans Fallback\""
+  },
+  "spacing_style": "Generous and consistent block-based spacing, using a modular scale for vertical rhythm. Elements are centered or left-aligned with ample horizontal padding.",
+  "navigation": [
+    {
+      "label": "Showcase",
+      "href": "/showcase"
+    },
+    {
+      "label": "Docs",
+      "href": "/docs"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Templates",
+      "href": "/templates"
+    },
+    {
+      "label": "Enterprise",
+      "href": "/enterprise"
+    },
+    {
+      "label": "Deploy",
+      "href": "/deploy"
+    },
+    {
+      "label": "Learn",
+      "href": "/learn"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Hero",
+      "type": "hero",
+      "layout": "centered",
+      "content": "The React Framework for the Web. Used by some of the world's largest companies, Next.js enables you to create high-quality web applications with the power of React components. Get Started. Learn Next.js. \u25b2 ~ npx create-next-app@latest",
+      "images": [
+        {
+          "src": "https://nextjs.org/_next/image?url=https%3A%2F%2Fh8DxKfmAPhn8O0p3.public.blob.vercel-storage.com%2Fnextjs%2Fspheres-light.png&w=300&q=75",
+          "alt": "A tree structure of 3D spheres are connected by lines"
+        }
+      ]
+    },
+    {
+      "name": "What's in Next.js?",
+      "type": "feature_grid",
+      "layout": "grid",
+      "content": "What's in Next.js? Everything you need to build great products on the web. Built-in Optimizations: Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals. Dynamic HTML Streaming: Stream UI from the server, integrated with the App Router and React Suspense. React Server Components: Write rich, interactive, full-stack React components for traditional client-side apps, and use them on the server. Data Fetching: Make your React component async and await your data. Next.js supports both server and client data fetching. CSS Support: Global, CSS Modules, Tailwind CSS, Sass, CSS-in-JS. Client and Server Rendering: Next.js has built-in support for Client-Side Rendering (CSR), Server-Side Rendering (SSR), Static Site Generation (SSG), and Incremental Static Regeneration (ISR). Server Actions: Run server code by calling a function. Skip the API. The API for your data mutations. Route Handlers: Build an API in a secure, performant way with Next.js App Router. Advanced Routing & Nested Layouts: Build flexible, complex UIs with advanced routing features and UI layouts. Next.js 16: Learn more about Next.js 16 and all the new features. Proxy: Proxy any request to the origin domain, which makes it easy to work with a backend API.",
+      "images": [
+        {
+          "src": null,
+          "alt": "Illustration of image optimization features"
+        },
+        {
+          "src": null,
+          "alt": "Screenshot of Next.js 16 features"
+        }
+      ]
+    },
+    {
+      "name": "Built on a foundation of fast, production-grade tooling",
+      "type": "feature_overview",
+      "layout": "three_column",
+      "content": "Built on a foundation of fast, production-grade tooling. Powered By. React: The library for web and native user interfaces. Next.js is built on the latest React features, including Server Components and Actions. Turbopack: An incremental bundler optimized for JavaScript and TypeScript, written in Rust , and built into Next.js. Speedy Web Compiler: An extensible Rust based platform for the next generation of web tooling, and can be used for both compilation and minification.",
+      "images": [
+        {
+          "src": null,
+          "alt": "React logo"
+        },
+        {
+          "src": null,
+          "alt": "Turbopack logo"
+        },
+        {
+          "src": null,
+          "alt": "Speedy Web Compiler logo"
+        }
+      ]
+    },
+    {
+      "name": "Get started in seconds",
+      "type": "call_to_action_with_templates",
+      "layout": "two_column",
+      "content": "Get started in seconds. Deploy Next.js to Vercel. Starter, Ecommerce, Blog, AI, Portfolio, SaaS, Multi-tenant Apps, Realtime Apps, Documentation, Virtual Event, Web3. Vercel is a frontend cloud from the creators of Next.js, making it easy to get started with Next.js quickly. Jumpstart your Next.js development with pre-built solutions from Vercel and our community. Deploy a Template on Vercel.",
+      "images": [
+        {
+          "src": null,
+          "alt": "Screenshot of Next.js Commerce template"
+        },
+        {
+          "src": null,
+          "alt": "Screenshot of Image Gallery template"
+        },
+        {
+          "src": null,
+          "alt": "Screenshot of Next.js Boilerplate template"
+        }
+      ]
+    },
+    {
+      "name": "The framework of choice when it matters",
+      "type": "showcase_and_testimonials",
+      "layout": "grid_with_callout",
+      "content": "The framework of choice when it matters. For performance, efficiency and developer experience. Next.js is trusted by some of the biggest names on the web. View the Next.js Showcase. \u201cWith Next.js, we now consistently average 0.09 or lower for Cumulative Layout Shift, placing our site in the top tier for user experience and Core Web Vitals.\u201d - Justin Palmer, Frontend Engineer, Notion. \u201cOur UI for Frame.io responds to user input within 100ms and all animations run at a consistent 60fps with Next.js.\u201d - Joe Maine, Frontend Engineer, Adobe. \u201cNext.js has been a game-changer for our agency work and team collaboration. Its powerful features have allowed us to build high-performance websites quickly and efficiently like never before.\u201d - Ben Lesh, Senior Frontend Developer, Sundogger.",
+      "images": [
+        {
+          "src": null,
+          "alt": "Audible logo"
+        },
+        {
+          "src": null,
+          "alt": "Sonos logo"
+        },
+        {
+          "src": null,
+          "alt": "Dice logo"
+        },
+        {
+          "src": null,
+          "alt": "Notion logo"
+        },
+        {
+          "src": null,
+          "alt": "ProductHunt logo"
+        },
+        {
+          "src": null,
+          "alt": "Nike logo"
+        },
+        {
+          "src": null,
+          "alt": "Washington Post logo"
+        },
+        {
+          "src": null,
+          "alt": "Adobe logo"
+        },
+        {
+          "src": null,
+          "alt": "Sundogger logo"
+        }
+      ]
+    },
+    {
+      "name": "Footer",
+      "type": "footer",
+      "layout": "grid",
+      "content": "Resources: Docs, Support Policy, Learn, Showcase, Blog, Team, Analytics, Next.js Conf, Previews, Evals. More: Next.js Commerce, Contact Sales, Community, GitHub, Releases, Telemetry, Governance, Ecosystem Working Group. About Vercel: Next.js + Vercel, Open Source Software, GitHub, Bluesky, X. Legal: Privacy Policy, Cookie Preferences. Subscribe to our newsletter: Stay updated on new releases and features, guides, and case studies.",
+      "images": [
+        {
+          "src": "https://nextjs.org/_next/static/immutable/media/vercel-light.3_gxxexgi1nmy.svg",
+          "alt": "Vercel logo"
+        }
+      ]
+    }
+  ],
+  "responsive_notes": "The site adapts from a multi-column desktop layout to a single-column stacked layout on mobile. Navigation typically collapses into a hamburger menu on smaller screens. Horizontal padding is reduced, and images scale down to fit the viewport or are sometimes re-positioned for optimal mobile viewing."
+}
