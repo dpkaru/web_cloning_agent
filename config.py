@@ -1,10 +1,3 @@
-'''import os
-from dotenv import load_dotenv
-from google import genai
-
-load_dotenv()
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")'''
 
 import os
 from dotenv import load_dotenv
@@ -14,7 +7,7 @@ load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 # Primary model from your .env file
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 
 # Fallback models arranged in order of stability to route traffic dynamically if primary fails
 FALLBACK_MODELS = [
